@@ -2,11 +2,20 @@
   "users": [
     {
       "id": 1,
-      "name": "json-server",
-      "login": "json-server",
-      "password": "json-server",
+      "name": "Admin",
+      "login": "Admin",
+      "password": "1234",
       "title": "json-server",
-      "isAdmin": false,
+      "isAdmin": true,
+      "favourites": []
+    },
+    {
+      "id": 2,
+      "name": "User",
+      "login": "User",
+      "password": "1234",
+      "title": "json-server",
+      "isAdmin": true,
       "favourites": []
     }
   ]
