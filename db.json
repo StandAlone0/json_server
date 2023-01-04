@@ -15,7 +15,7 @@
       "login": "User",
       "password": "1234",
       "title": "json-server",
-      "isAdmin": true,
+      "isAdmin": false,
       "favourites": []
     }
   ]
