@@ -2,12 +2,15 @@
   "users": [
     {
       "id": 1,
-      "name": "Admin",
       "login": "Admin",
+      "name": "Admin",
       "password": "1234",
-      "title": "json-server",
       "isAdmin": true,
-      "favourites": []
+      "favourites": [
+        "Rolfsbukta ved fergeanløp",
+        "Lysaker torg øst 2"
+      ],
+      "error": ""
     },
     {
       "id": 2,
@@ -16,6 +19,30 @@
       "password": "1234",
       "title": "json-server",
       "isAdmin": false,
+      "favourites": []
+    },
+    {
+      "isAdmin": false,
+      "login": "Bear",
+      "password": "12345",
+      "name": "Koala",
+      "id": 4,
+      "favourites": []
+    },
+    {
+      "login": "Amigo",
+      "name": "Hola",
+      "password": "1234",
+      "isAdmin": false,
+      "favourites": [],
+      "id": 7
+    },
+    {
+      "isAdmin": true,
+      "login": "Doe",
+      "password": "1234",
+      "name": "John",
+      "id": 8,
       "favourites": []
     }
   ]
